@@ -1,0 +1,5 @@
+rootProject.name = 'letter'
+include 'letter_adding'
+include 'letter_library'
+include 'letter_report'
+

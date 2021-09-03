@@ -1,0 +1,24 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(":letter_library")
+}
+
+task buildJarReport(type: Jar) {
+
+    archivesBaseName = 'letter_report'
+
+    manifest {
+        attributes 'Manifest-Version': '4.0.0',
+                'Main-Class': 'gui.LetterReport'
+    }
+
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+    with jar
+}

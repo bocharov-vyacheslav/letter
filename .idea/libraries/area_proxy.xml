@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="area_proxy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../area_proxy/build/libs/area_proxy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

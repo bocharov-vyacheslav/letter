@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.LetterReport">
+  <grid id="27dc6" binding="applicationPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1224" height="502"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="59b77" binding="filterPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <toolbar id="30013" binding="receiptToolBar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="8283c" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Период поступления с  "/>
+                </properties>
+              </component>
+              <grid id="91eae" binding="periodFromPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="af618" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="  по  "/>
+                </properties>
+              </component>
+              <grid id="84970" binding="periodToPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="afa59" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  Тип информационного письма  "/>
+                </properties>
+              </component>
+              <component id="35645" class="javax.swing.JComboBox" binding="letterTypeComboBox">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                  <model>
+                    <item value="Все"/>
+                    <item value="Об отсутствии деятельности"/>
+                    <item value="Об отсутствии явления"/>
+                    <item value="Нулевой отчёт"/>
+                    <item value="В стадии ликвидации"/>
+                    <item value="Произведена ликвидация"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <toolbar id="fa1e" binding="otchToolBar">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="150"/>
+                <preferred-size width="-1" height="150"/>
+                <maximum-size width="-1" height="150"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="9c0ea" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="ОКПО  "/>
+                </properties>
+              </component>
+              <grid id="59f60" binding="okpoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <component id="51d02" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  ОКУД  "/>
+                </properties>
+              </component>
+              <grid id="eb90c" binding="okudPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </toolbar>
+          <toolbar id="11f17" binding="periodToolBar">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+                <preferred-size width="-1" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="94fd2" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Отчётный год  "/>
+                </properties>
+              </component>
+              <component id="7df40" class="javax.swing.JComboBox" binding="yearComboBox">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                  <model/>
+                </properties>
+              </component>
+              <component id="89a2" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  Периодичность  "/>
+                </properties>
+              </component>
+              <component id="1d64e" class="javax.swing.JComboBox" binding="periodicityComboBox">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                  <model>
+                    <item value="Все"/>
+                    <item value="Годовая"/>
+                    <item value="Полугодовая"/>
+                    <item value="Квартальная"/>
+                    <item value="Месячная"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="2e40c" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  Отчётный период  "/>
+                </properties>
+              </component>
+              <component id="7aced" class="javax.swing.JComboBox" binding="periodComboBox">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                  <model>
+                    <item value="Все"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+          <component id="5e77e" class="javax.swing.JButton" binding="getPeriodicityButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="  Подобрать периодичность  "/>
+            </properties>
+          </component>
+          <component id="e102c" class="javax.swing.JButton" binding="clearPeriodicityButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="  Очистить периодичность  "/>
+            </properties>
+          </component>
+          <component id="a2259" class="javax.swing.JButton" binding="findButton">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="  Найти  "/>
+            </properties>
+          </component>
+          <component id="7ea34" class="javax.swing.JButton" binding="createReportButton">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="  Экспорт в Excel  "/>
+            </properties>
+          </component>
+          <toolbar id="58198" binding="okatoToolBar">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+                <preferred-size width="-1" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="9edee" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="ОКАТО  "/>
+                </properties>
+              </component>
+              <component id="8d3a" class="javax.swing.JTextField" binding="okatoTextField">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                </properties>
+              </component>
+              <component id="e110b" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  ОКТМО  "/>
+                </properties>
+              </component>
+              <component id="d3b23" class="javax.swing.JTextField" binding="oktmoTextField">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                </properties>
+              </component>
+              <component id="4e0dc" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  ОКВЭД  "/>
+                </properties>
+              </component>
+              <component id="14b9c" class="javax.swing.JTextField" binding="okvedTextField">
+                <constraints/>
+                <properties>
+                  <font size="14" style="0"/>
+                </properties>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </grid>
+      <grid id="ddae8" binding="toolBarPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <toolbar id="8d696" binding="tableToolBar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <foreground color="-855310"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="744e3" class="javax.swing.JComboBox" binding="pageSizeComboBox">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <model>
+                    <item value="10"/>
+                    <item value="20"/>
+                    <item value="50"/>
+                    <item value="100"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="1be1f" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="80fe5" class="javax.swing.JButton" binding="firstButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/first.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a16fc" class="javax.swing.JButton" binding="previousButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/previous.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="9584c" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="f9b74" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Страница  "/>
+                </properties>
+              </component>
+              <component id="a85a9" class="javax.swing.JLabel" binding="currentPageLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="9e86" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  из  "/>
+                </properties>
+              </component>
+              <component id="fd48f" class="javax.swing.JLabel" binding="pagesCountLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="d4277" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="22d4f" class="javax.swing.JButton" binding="nextButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/next.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="d6b26" class="javax.swing.JButton" binding="lastButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/last.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="6292a" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ced8a" class="javax.swing.JButton" binding="refreshButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/refresh.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="99c7f" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="52646" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Всего записей - "/>
+                </properties>
+              </component>
+              <component id="fc4e9" class="javax.swing.JLabel" binding="recordsCountLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="d5ba9" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </grid>
+      <scrollpane id="e5778" binding="letterScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="25f78" class="javax.swing.JTable" binding="letterTable">
+            <constraints/>
+            <properties>
+              <autoResizeMode value="4"/>
+              <font size="14"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

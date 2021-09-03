@@ -1,0 +1,35 @@
+subprojects {
+
+    apply plugin: "java"
+
+    [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+    tasks.withType(Javadoc) { options.encoding = 'UTF-8' }
+
+    tasks.withType(JavaCompile) {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+
+        implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.2.3.RELEASE'
+        implementation group: 'org.springframework', name: 'spring-context', version: '5.2.3.RELEASE'
+
+        implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.0'
+        implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.0'
+        implementation group: 'com.lmax', name: 'disruptor', version: '3.4.2'
+
+        implementation group: 'com.github.adedayo.intellij.sdk', name: 'forms_rt', version: '142.1'
+        implementation group: 'com.jgoodies', name: 'jgoodies-forms', version: '1.9.0'
+        implementation group: 'com.github.lgooddatepicker', name: 'LGoodDatePicker', version: '10.3.1'
+    }
+}
+
+wrapper {
+    gradleVersion = '6.2'
+    distributionType = Wrapper.DistributionType.ALL
+}

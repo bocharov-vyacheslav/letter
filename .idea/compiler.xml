@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="area_proxy.main" target="1.8" />
+      <module name="area_proxy.test" target="1.8" />
+      <module name="letter.letter_reporter.main" target="1.8" />
+      <module name="letter.letter_reporter.test" target="1.8" />
+      <module name="letter.main" target="1.8" />
+      <module name="letter.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

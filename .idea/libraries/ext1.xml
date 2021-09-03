@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="ext1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/jaccess.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/localedata.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/nashorn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/access-bridge-32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/sunjce_provider.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/dnsns.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/sunec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/zipfs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/jfxrt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/sunmscapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/sunpkcs11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../prot/build/libs/jre1.8.0_152/lib/ext/cldrdata.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

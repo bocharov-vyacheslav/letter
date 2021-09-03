@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.LetterAdding">
+  <grid id="27dc6" binding="applicationPanel" layout-manager="GridLayoutManager" row-count="22" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="980" height="777"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="30cb1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="2"/>
+          <text value="  Информационные письма (регистрация)  "/>
+        </properties>
+      </component>
+      <component id="a566f" class="javax.swing.JButton" binding="registerButton">
+        <constraints>
+          <grid row="19" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="  Зарегистрировать письмо  "/>
+        </properties>
+      </component>
+      <vspacer id="444d8">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="286a8">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3310c">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="40bb7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  ФИО руководителя  "/>
+        </properties>
+      </component>
+      <component id="72c5a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  ФИО ответственного  "/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="16e6f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  Должность ответственного  "/>
+        </properties>
+      </component>
+      <component id="353bc" class="javax.swing.JTextField" binding="leaderFioTextField">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+        </properties>
+      </component>
+      <component id="df359" class="javax.swing.JTextField" binding="responsibleFioTextField">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+        </properties>
+      </component>
+      <component id="59705" class="javax.swing.JTextField" binding="responsiblePostTextField">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font size="16" style="0"/>
+        </properties>
+      </component>
+      <component id="cc045" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-3014656"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  Дата поступления  "/>
+        </properties>
+      </component>
+      <grid id="7af88" binding="receiptDatePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="bfe0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-3014656"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  Способ поступления  "/>
+        </properties>
+      </component>
+      <component id="a87a3" class="javax.swing.JComboBox" binding="receiptTypeComboBox">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+          <model>
+            <item value="Не выбрано"/>
+            <item value="Спецоператор связи"/>
+            <item value="Бумажный носитель"/>
+            <item value="Электронная почта"/>
+          </model>
+        </properties>
+      </component>
+      <tabbedpane id="2af37" binding="letterTabbedPane">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="9e237" binding="otchScrollPane">
+            <constraints>
+              <tabbedpane title="Отчётность"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="932d" class="javax.swing.JTable" binding="otchTable">
+                <constraints/>
+                <properties>
+                  <autoResizeMode value="4"/>
+                  <font size="14"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="382e1" binding="phoneScrollPane">
+            <constraints>
+              <tabbedpane title="Телефоны"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4f239" class="javax.swing.JTable" binding="phoneTable">
+                <constraints/>
+                <properties>
+                  <autoResizeMode value="4"/>
+                  <font size="14"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="59cfc" binding="emailScrollPane">
+            <constraints>
+              <tabbedpane title="Электронная почта"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="460ce" class="javax.swing.JTable" binding="emailTable">
+                <constraints/>
+                <properties>
+                  <autoResizeMode value="4"/>
+                  <font size="14"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </tabbedpane>
+      <grid id="24926" binding="toolBarPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <toolbar id="37f4f" binding="tableToolBar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <floatable value="false"/>
+              <foreground color="-855310"/>
+              <rollover value="false"/>
+            </properties>
+            <clientProperties>
+              <JToolBar.isRollover class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+            <border type="none"/>
+            <children>
+              <component id="51771" class="javax.swing.JComboBox" binding="pageSizeComboBox">
+                <constraints/>
+                <properties>
+                  <editable value="false"/>
+                  <font size="14"/>
+                  <model>
+                    <item value="10"/>
+                    <item value="20"/>
+                    <item value="50"/>
+                    <item value="100"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="bd501" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="e75b0" class="javax.swing.JButton" binding="firstButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/first.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="89823" class="javax.swing.JButton" binding="previousButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/previous.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="82a53" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="8e5fe" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Страница  "/>
+                </properties>
+              </component>
+              <component id="e22bd" class="javax.swing.JLabel" binding="currentPageLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="56152" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="  из  "/>
+                </properties>
+              </component>
+              <component id="23d47" class="javax.swing.JLabel" binding="pagesCountLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="964a2" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="65f9e" class="javax.swing.JButton" binding="nextButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/next.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="56893" class="javax.swing.JButton" binding="lastButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/last.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b9158" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="47493" class="javax.swing.JButton" binding="deleteButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/delete.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="c5e26" class="javax.swing.JButton" binding="addButton">
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <hideActionText value="false"/>
+                  <horizontalTextPosition value="0"/>
+                  <icon value="images/add.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f0834" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="ff8c8" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="Всего записей - "/>
+                </properties>
+              </component>
+              <component id="5cf9e" class="javax.swing.JLabel" binding="recordsCountLabel">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="a1413" class="javax.swing.JToolBar$Separator">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </toolbar>
+        </children>
+      </grid>
+      <component id="57a3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-3014656"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  Тип информационного письма  "/>
+        </properties>
+      </component>
+      <component id="c8a17" class="javax.swing.JComboBox" binding="letterTypeComboBox">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+          <model>
+            <item value="Не выбрано"/>
+            <item value="Об отсутствии деятельности"/>
+            <item value="Об отсутствии явления"/>
+            <item value="Нулевой отчёт"/>
+            <item value="В стадии ликвидации"/>
+            <item value="Произведена ликвидация"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f418b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="1"/>
+          <foreground color="-3014656"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="  Информационное письмо  "/>
+        </properties>
+      </component>
+      <component id="76e2a" class="javax.swing.JLabel" binding="letterPath">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="-1"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <text value="Файл не выбран"/>
+        </properties>
+      </component>
+      <component id="e0f68" class="javax.swing.JButton" binding="chooseLetterButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="16"/>
+          <text value="  Выбрать файл  "/>
+        </properties>
+      </component>
+      <vspacer id="ba34">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="2dff4">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8fcb8">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e22b3">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="17102">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ddbab">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="53a29" class="javax.swing.JButton" binding="closeButton">
+        <constraints>
+          <grid row="21" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="  Закрыть  "/>
+        </properties>
+      </component>
+      <vspacer id="c003b">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="42a55" class="javax.swing.JComboBox" binding="responsiblePostPrefixComboBox">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+          <model>
+            <item value="Не выбрано"/>
+            <item value="Руководитель"/>
+            <item value="Главный бухгалтер"/>
+            <item value="Заместитель главного бухгалтера"/>
+            <item value="Бухгалтер"/>
+            <item value="Исполнитель"/>
+            <item value="Конкурсный управляющий"/>
+            <item value="Ликвидатор"/>
+            <item value="Иное"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

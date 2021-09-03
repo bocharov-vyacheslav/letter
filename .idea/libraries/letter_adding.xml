@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="letter_adding">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/libs/letter_adding.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

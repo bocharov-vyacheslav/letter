@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1333fe33-0581-4410-a08f-5ea78356d3e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../area_proxy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/EmpDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/EssoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/Esso_nDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/ScheduleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/WebDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/Esso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/Esso_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/TippredConsolidatedProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/Web.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/websbor_report/RecallRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/ImportESSO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/ImportESSO_N.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/ImportSO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/ImportWEB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/2019-08/Логи приложения-2019-08-04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/2019-09/Логи приложения-2019-09-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/2019-10/Логи приложения-2019-10-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/2019-10/Логи приложения-2019-10-29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/2019-11/Логи приложения-2019-11-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../area_proxy/Руководство пользователя 2.2.0.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/5.3.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/AreaFilesProtocolDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/AreaFilesProtocolDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/OkpoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/OkpoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/WebsborPeriodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/dao/WebsborPeriodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/CellParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/CellParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/CellParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/CellParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/JDBCHelper$PasportSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/JDBCHelper$PasportSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/JDBCHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/JDBCHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/ReportCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/data_helpers/ReportCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/AreaFilesProtocol$AreaCodeOktmo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/AreaFilesProtocol$AreaCodeOktmo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/AreaFilesProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/AreaFilesProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/ConsolidatedProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/ConsolidatedProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/CopySsoFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/websbor_report/Row.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/models/websbor_report/Row.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/services/DataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/data/services/DataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/JDatePicker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/LoginDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/LoginDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/swing_workers/SortWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/classes/java/main/gui/swing_workers/SortWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/libs/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/libs/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/libs/area_proxy.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/libs/area_proxy.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/libs/area_proxy.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/libs/area_proxy.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/libs/launch4j.log" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/libs/launch4j.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/libs/Логи приложения/Логи приложения.log" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/libs/Логи приложения/Логи приложения.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/proxy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/build/tmp/buildJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/build/tmp/buildJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/constants/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/AreaFilesProtocolDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/AreaFilesProtocolDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/OkpoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/OkpoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/WebsborPeriodDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/dao/WebsborPeriodDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/CellParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/CellParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/CellParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/CellParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/JDBCHelper$PasportSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/JDBCHelper$PasportSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/JDBCHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/JDBCHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/ReportCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/data_helpers/ReportCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/AreaFilesProtocol$AreaCodeOktmo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/AreaFilesProtocol$AreaCodeOktmo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/AreaFilesProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/AreaFilesProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/ConsolidatedProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/ConsolidatedProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/CopySsoFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/ofsn_okpo/EntityValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/ofsn_okpo/EntityValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/websbor_report/Row.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/models/websbor_report/Row.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/services/DataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/data/services/DataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/LoginDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/LoginDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/swing_workers/SortWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/out/production/classes/gui/swing_workers/SortWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/AreaFilesProtocolDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/AreaFilesProtocolDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/OkpoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/OkpoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/WebsborPeriodDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/dao/WebsborPeriodDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/CellParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/CellParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/JDBCHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/JDBCHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/ReportCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/data_helpers/ReportCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/AreaFilesProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/AreaFilesProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/ConsolidatedProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/ConsolidatedProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/CopySsoFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/ofsn_okpo/EntityValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/ofsn_okpo/EntityValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/websbor_report/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/models/websbor_report/Row.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/data/services/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/data/services/DataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/LoginDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/LoginDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/Main.form" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/Main.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/SortProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/SortProgressBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/swing_workers/SortWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/src/main/java/gui/swing_workers/SortWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/Логи приложения/Логи приложения.log" beforeDir="false" afterPath="$PROJECT_DIR$/../area_proxy/Логи приложения/Логи приложения.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../area_proxy/Руководство пользователя 2.0.0.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../area_proxy">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/letter_adding">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/letter_report">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_adding" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_adding" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_adding" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_report" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_report" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="letter" type="f1a62948:ProjectNode" />
+                <item name="letter_report" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../area_proxy" />
+  </component>
+  <component name="ProjectId" id="1R5sxzMOauU8zkGGe9ystxCrZSd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="331" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/letter_report/src/main/java/gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/letter_report/src/main/java/gui/elements" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26436782" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="data.models" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data_helpers" />
+      <recent name="gui.elements" />
+      <recent name="data.data_helpers" />
+      <recent name="gui.swing_workers" />
+      <recent name="data.data_helpers.aaa" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\p66_BocharovVV\IdeaProjects\letter\letter_report\src\main\java\gui\elements" />
+      <recent name="C:\Users\p66_BocharovVV\IdeaProjects\letter\letter_report\src\main\java\gui" />
+      <recent name="C:\Users\p66_BocharovVV\IdeaProjects\letter\letter_report\src\main\java\data" />
+      <recent name="C:\Users\p66_BocharovVV\IdeaProjects\letter\letter_library" />
+      <recent name="C:\Users\p66_BocharovVV\IdeaProjects\letter\letter_adding" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="./gradlew  --console plain dependencies | fgrep ' - '" />
+      <command value="gradle  --console plain dependencies | fgrep ' - '" />
+      <command value="gradle app:dependencies" />
+      <command value="gradle :letter_adding:dependencies" />
+      <command value="gradle :letter_library:dependencies" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LetterReport">
+    <configuration name="LetterAdding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.LetterAdding" />
+      <module name="letter.letter_adding.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LetterReport" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.LetterReport" />
+      <module name="letter.letter_report.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="letter [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="letter:letter_adding [buildJarAdding]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/letter_adding" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildJarAdding" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="letter:letter_report [buildJarReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/letter_report" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildJarReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LetterReport" />
+        <item itemvalue="Application.LetterAdding" />
+        <item itemvalue="Gradle.letter [wrapper]" />
+        <item itemvalue="Gradle.letter:letter_report [buildJarReport]" />
+        <item itemvalue="Gradle.letter:letter_adding [buildJarAdding]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1333fe33-0581-4410-a08f-5ea78356d3e2" name="Default Changelist" comment="" />
+      <created>1568968543002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568968543002</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="okpoPanel" language="JAVA" />
+        <watch expression="e.getClickCount()" language="JAVA" />
+        <watch expression="e.getClickCount()" language="JAVA" />
+        <watch expression="&quot;00005061 - ВЭБ.РФ&quot;.toLowerCase().matches(&quot;^00005061&quot;)" language="JAVA" />
+        <watch expression="name.getName()" language="JAVA" />
+        <watch expression="fb.getDocument().getLength()) &gt;= text.length()" language="JAVA" />
+        <watch expression="text.matches(&quot;^\\d{0,&quot; + regexLength + &quot;}$&quot;)" language="JAVA" />
+        <watch expression="(regexLength - fb.getDocument().getLength()) &gt;= text.length()" language="JAVA" />
+        <watch expression="text.length()" language="JAVA" />
+        <watch expression="regexLength - fb.getDocument().getLength()" language="JAVA" />
+        <watch expression="e.getStateChange()" language="JAVA" />
+        <watch expression="otchTable.getSelectedRow()" language="JAVA" />
+        <watch expression="osnPhoneTextField.isEditValid()" language="JAVA" />
+        <watch expression="letterJdbcTemplate.query(&quot;SELECT 1&quot;, new BeanPropertyRowMapper&lt;&gt;(Long.class))" language="JAVA" />
+        <watch expression="osnPhoneTextField.isValid()" language="JAVA" />
+        <watch expression="osnPhone.matches(&quot;^\\+7 (\\d{3}) \\d{3}-\\d{2}-\\d{2}$&quot;)" language="JAVA" />
+        <watch expression="okpoTemp" language="JAVA" />
+        <watch expression="jOkpoPanel.getValue()" language="JAVA" />
+        <watch expression="jShortOkudPanel.getValue()" language="JAVA" />
+        <watch expression="name.getName()" language="JAVA" />
+        <watch expression="jShortOkudPanel.getValue()" language="JAVA" />
+        <watch expression="frame.getOkpoForOtchAdding()" language="JAVA" />
+        <watch expression="letterChooser.get" language="JAVA" />
+        <watch expression="text.matches(&quot;^\\d{0,&quot; + regexLength + &quot;}$&quot;)" language="JAVA" />
+        <watch expression="regexLength - fb.getDocument().getLength()) &gt;= text.length()" language="JAVA" />
+        <watch expression="(regexLength - fb.getDocument().getLength()) &gt;= text.length()" language="JAVA" />
+        <watch expression="fb.getDocument().getLength()" language="JAVA" />
+        <watch expression="text.matches(&quot;^[@&amp;\\w._-]$&quot;)" language="JAVA" />
+        <watch expression="(200 - fb.getDocument().getLength()) &gt;= text.length()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

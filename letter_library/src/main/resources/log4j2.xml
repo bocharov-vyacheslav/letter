@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="app_log">Логи приложения</Property>
+    </Properties>
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d [%t] %p %c - %m%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <RollingRandomAccessFile name="AppLogFile" fileName="${app_log}/${app_log}.log" filePattern="${app_log}/%d{yyyy-MM}/${app_log}-%d{yyyy-MM-dd}.log">
+            <PatternLayout charset="UTF-8">
+                <Pattern>%d [%t] %p %c - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingRandomAccessFile>
+        <JDBC name="AppLogDatabase" tableName="[log]" bufferSize="10">
+            <ConnectionFactory class="data_helpers.JDBCHelper" method="getPasportConnection" />
+            <Column name="date" isEventTimestamp="true" />
+            <Column name="logger" pattern="%logger" />
+            <Column name="level" pattern="%level" />
+            <Column name="message" pattern="%m" />
+            <Column name="exception" pattern="%throwable" />
+        </JDBC>
+
+    </Appenders>
+    <Loggers>
+
+        <Root level="info">
+            <AppenderRef ref="Console" />
+        </Root>
+
+        <AsyncLogger name="DEFAULT_LOGGER" level="info">
+            <AppenderRef ref="AppLogFile"/>
+            <AppenderRef ref="AppLogDatabase"/>
+        </AsyncLogger >
+
+        <AsyncLogger name="LOGIN_LOGGER" level="info">
+            <AppenderRef ref="AppLogFile"/>
+        </AsyncLogger >
+
+    </Loggers>
+</Configuration>
